@@ -1,0 +1,153 @@
+Last login: Wed Feb 22 11:11:18 on ttys000
+Dannys-MacBook-Pro:~ Danny$ cd desktop
+Dannys-MacBook-Pro:desktop Danny$ mkdir test
+Dannys-MacBook-Pro:desktop Danny$ ls
+250 2.docx				github.docx
+DojoAssignments				hello_world.html
+Emgt 322 349 357.docx			quality
+Untitled.html				registrationform.html
+assignments.txt				resume new
+baker					test
+classes					titleist
+commands.txt				自傳.docx
+entrepreneur				替代役.docx
+fake blog				家裡地址.docx
+fakeblog.html				國家中山科學研究院.docx
+filetofish
+Dannys-MacBook-Pro:desktop Danny$ cd test
+Dannys-MacBook-Pro:test Danny$ touch index.html
+Dannys-MacBook-Pro:test Danny$ touch styles.css
+Dannys-MacBook-Pro:test Danny$ touch aboutMe.txt
+Dannys-MacBook-Pro:test Danny$ ls
+aboutMe.txt	index.html	styles.css
+Dannys-MacBook-Pro:test Danny$ git init
+Initialized empty Git repository in /Users/Danny/Desktop/test/.git/
+Dannys-MacBook-Pro:test Danny$ git commit -m aboutMe.txt index.html styles.css added
+error: pathspec 'index.html' did not match any file(s) known to git.
+error: pathspec 'styles.css' did not match any file(s) known to git.
+error: pathspec 'added' did not match any file(s) known to git.
+Dannys-MacBook-Pro:test Danny$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	aboutMe.txt
+	index.html
+	styles.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+Dannys-MacBook-Pro:test Danny$ git add aboutMe.txt
+Dannys-MacBook-Pro:test Danny$ git commit -m  "aboutMe.txt added"
+[master (root-commit) 1097e9c] aboutMe.txt added
+ Committer: Danny Hsieh <Danny@Dannys-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+ create mode 100644 aboutMe.txt
+Dannys-MacBook-Pro:test Danny$ git config --global user.name DannyHsieh
+Dannys-MacBook-Pro:test Danny$ git config --global user.email dhsieh911018@gmail.com
+Dannys-MacBook-Pro:test Danny$ git config --global --list
+user.name=DannyHsieh
+user.email=dhsieh911018@gmail.com
+Dannys-MacBook-Pro:test Danny$ git add aboutMe.txt
+Dannys-MacBook-Pro:test Danny$ git commit -m "aboutMe.txt edited"
+On branch master
+Untracked files:
+	index.html
+	styles.css
+
+nothing added to commit but untracked files present
+Dannys-MacBook-Pro:test Danny$ add index.html
+-bash: add: command not found
+Dannys-MacBook-Pro:test Danny$ git add index.html
+Dannys-MacBook-Pro:test Danny$ commit -m "index.html added"
+-bash: commit: command not found
+Dannys-MacBook-Pro:test Danny$ git commit -m "index.html added"
+[master 968821e] index.html added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+Dannys-MacBook-Pro:test Danny$ git add styles.css
+Dannys-MacBook-Pro:test Danny$ git commit -m "styles.css added"
+[master 77ce21d] styles.css added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 styles.css
+Dannys-MacBook-Pro:test Danny$ git status
+On branch master
+nothing to commit, working tree clean
+Dannys-MacBook-Pro:test Danny$ git log
+commit 77ce21d5d7d85960abb3cd032633aed2c493b568
+Author: DannyHsieh <dhsieh911018@gmail.com>
+Date:   Wed Feb 22 13:08:34 2017 -0800
+
+    styles.css added
+
+commit 968821e173c6db40994989d33338b1217d94e15c
+Author: DannyHsieh <dhsieh911018@gmail.com>
+Date:   Wed Feb 22 13:08:03 2017 -0800
+
+    index.html added
+
+commit 1097e9c989266d437e721f538dae575765111f1a
+Author: Danny Hsieh <Danny@Dannys-MacBook-Pro.local>
+Date:   Wed Feb 22 13:01:58 2017 -0800
+
+    aboutMe.txt added
+Dannys-MacBook-Pro:test Danny$ git revert -n1097e9c
+fatal: '1097e9c': not a non-negative integer
+Dannys-MacBook-Pro:test Danny$ git revert -n 1097e9c
+Dannys-MacBook-Pro:test Danny$ git log
+commit 77ce21d5d7d85960abb3cd032633aed2c493b568
+Author: DannyHsieh <dhsieh911018@gmail.com>
+Date:   Wed Feb 22 13:08:34 2017 -0800
+
+    styles.css added
+
+commit 968821e173c6db40994989d33338b1217d94e15c
+Author: DannyHsieh <dhsieh911018@gmail.com>
+Date:   Wed Feb 22 13:08:03 2017 -0800
+
+    index.html added
+
+commit 1097e9c989266d437e721f538dae575765111f1a
+Author: Danny Hsieh <Danny@Dannys-MacBook-Pro.local>
+Date:   Wed Feb 22 13:01:58 2017 -0800
+
+    aboutMe.txt added
+Dannys-MacBook-Pro:test Danny$ git status
+On branch master
+You are currently reverting commit 1097e9c.
+  (all conflicts fixed: run "git revert --continue")
+  (use "git revert --abort" to cancel the revert operation)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	deleted:    aboutMe.txt
+
+Dannys-MacBook-Pro:test Danny$ git commit -m "aboutMe.txt deleted"
+[master c1068b7] aboutMe.txt deleted
+ 1 file changed, 3 deletions(-)
+ delete mode 100644 aboutMe.txt
+Dannys-MacBook-Pro:test Danny$ touch aboutMe.txt
+Dannys-MacBook-Pro:test Danny$ git add aboutMe.txt
+Dannys-MacBook-Pro:test Danny$ git commit -m "aboutMe.txt added"
+[master 0937733] aboutMe.txt added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 aboutMe.txt
+Dannys-MacBook-Pro:test Danny$ git status
+On branch master
+nothing to commit, working tree clean
+Dannys-MacBook-Pro:test Danny$

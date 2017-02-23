@@ -1,0 +1,98 @@
+Last login: Tue Feb 21 15:36:58 on ttys000
+Dannys-MacBook-Pro:~ Danny$ pwd
+/Users/Danny
+Dannys-MacBook-Pro:~ Danny$ cd desktop
+Dannys-MacBook-Pro:desktop Danny$ mkdir DojoAssignments
+Dannys-MacBook-Pro:desktop Danny$ ls
+250 2.docx				github.docx
+DojoAssignments				hello_world.html
+Emgt 322 349 357.docx			quality
+Untitled.html				registrationform.html
+baker					resume new
+classes					titleist
+commands.txt				自傳.docx
+entrepreneur				替代役.docx
+fake blog				家裡地址.docx
+fakeblog.html				國家中山科學研究院.docx
+filetofish
+Dannys-MacBook-Pro:desktop Danny$ cd DojoAssignments
+Dannys-MacBook-Pro:DojoAssignments Danny$ mkdir WebFundamentals
+Dannys-MacBook-Pro:DojoAssignments Danny$ mkdir Python
+Dannys-MacBook-Pro:DojoAssignments Danny$ mkdir MEAN
+Dannys-MacBook-Pro:DojoAssignments Danny$ mkdir Ruby
+Dannys-MacBook-Pro:DojoAssignments Danny$ mkdir iOS
+Dannys-MacBook-Pro:DojoAssignments Danny$ mkdir netCore
+Dannys-MacBook-Pro:DojoAssignments Danny$ ls
+MEAN		Ruby		iOS
+Python		WebFundamentals	netCore
+Dannys-MacBook-Pro:DojoAssignments Danny$ cd WebFUndamentals
+Dannys-MacBook-Pro:WebFUndamentals Danny$ touch about.txt
+Dannys-MacBook-Pro:WebFUndamentals Danny$ ls
+about.txt
+Dannys-MacBook-Pro:WebFUndamentals Danny$ cd Python
+-bash: cd: Python: No such file or directory
+Dannys-MacBook-Pro:WebFUndamentals Danny$ cd ..
+Dannys-MacBook-Pro:DojoAssignments Danny$ cd WebFundamentals
+Dannys-MacBook-Pro:WebFundamentals Danny$ cd ../Python
+Dannys-MacBook-Pro:Python Danny$ touch about.txt
+Dannys-MacBook-Pro:Python Danny$ ls
+about.txt
+Dannys-MacBook-Pro:Python Danny$ cd ../MEAN
+Dannys-MacBook-Pro:MEAN Danny$ touch about.txt
+Dannys-MacBook-Pro:MEAN Danny$ ls
+about.txt
+Dannys-MacBook-Pro:MEAN Danny$ cd ../Ruby
+Dannys-MacBook-Pro:Ruby Danny$ touch about.txt
+Dannys-MacBook-Pro:Ruby Danny$ ls
+about.txt
+Dannys-MacBook-Pro:Ruby Danny$ cd ../iOS
+Dannys-MacBook-Pro:iOS Danny$ touch about.txt
+Dannys-MacBook-Pro:iOS Danny$ ls
+about.txt
+Dannys-MacBook-Pro:iOS Danny$ cd ../netCore
+Dannys-MacBook-Pro:netCore Danny$ touch about.txt
+Dannys-MacBook-Pro:netCore Danny$ ls
+about.txt
+Dannys-MacBook-Pro:netCore Danny$ cd ../WebFundamentals
+Dannys-MacBook-Pro:WebFundamentals Danny$ mkdir Git HTML
+Dannys-MacBook-Pro:WebFundamentals Danny$ ls
+Git		HTML		about.txt
+Dannys-MacBook-Pro:WebFundamentals Danny$ mkdir CSS Javascript
+Dannys-MacBook-Pro:WebFundamentals Danny$ ls
+CSS		Git		HTML		Javascript	about.txt
+Dannys-MacBook-Pro:WebFundamentals Danny$ cd ../CSS
+-bash: cd: ../CSS: No such file or directory
+Dannys-MacBook-Pro:WebFundamentals Danny$ cd Css
+Dannys-MacBook-Pro:Css Danny$ cd CSS
+-bash: cd: CSS: No such file or directory
+Dannys-MacBook-Pro:Css Danny$ cd CSS
+-bash: cd: CSS: No such file or directory
+Dannys-MacBook-Pro:Css Danny$ ls
+Dannys-MacBook-Pro:Css Danny$ touch about.txt
+Dannys-MacBook-Pro:Css Danny$ ls
+about.txt
+Dannys-MacBook-Pro:Css Danny$ cd Git
+-bash: cd: Git: No such file or directory
+Dannys-MacBook-Pro:Css Danny$ cd ../Git
+Dannys-MacBook-Pro:Git Danny$ touch about.txt
+Dannys-MacBook-Pro:Git Danny$ ls
+about.txt
+Dannys-MacBook-Pro:Git Danny$ cd HTML
+-bash: cd: HTML: No such file or directory
+Dannys-MacBook-Pro:Git Danny$ cd ../HTML
+Dannys-MacBook-Pro:HTML Danny$ touch about.txt
+Dannys-MacBook-Pro:HTML Danny$ ls
+about.txt
+Dannys-MacBook-Pro:HTML Danny$ cd ../Javascript
+Dannys-MacBook-Pro:Javascript Danny$ touch about.txt
+Dannys-MacBook-Pro:Javascript Danny$ ls
+about.txt
+Dannys-MacBook-Pro:Javascript Danny$ cd ../HTML
+Dannys-MacBook-Pro:HTML Danny$ ls
+about.txt
+Dannys-MacBook-Pro:HTML Danny$ touch indentation.html
+Dannys-MacBook-Pro:HTML Danny$ ls
+about.txt		indentation.html
+Dannys-MacBook-Pro:HTML Danny$ ls -R
+about.txt		indentation.html
+Dannys-MacBook-Pro:HTML Danny$ 

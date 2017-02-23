@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+  <form action="process.php" method="post">
+    <p>Please Register</p>
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name"> <br>
+
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name"> <br>
+
+    <label id="email">Email:</label>
+    <input type="text" id="email" name="email"> <br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"> <br>
+    </label>
+   <label for="pw_confirm">Password Confirmation:</label>
+   <input type="password" for="pw_confirm" name="password_confirmation"> <br>
+
+   <label for="birthday">Birthday:</label>
+   <input type="birthday" id="birthday" name="birthday"> <br>
+
+    <p>Select your gender:</p>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+
+    <label for="female">Female</label>
+    <input type="radio" name="gender" value="female">
+
+    <label for="other">Other</label>
+    <input type="radio" name="gender" value="other">
+
+
+
+
+    <p>Say a few words about yourself:</p>
+    <textarea name="description"></textarea>
+
+    <select name="favorite language">
+    <option value="javascript">Javascript</option>
+    <option value="python">Python</option>
+</select> <br>
+
+
+
+   <input type="submit" value="Click here to register">
+</form>
+
+</body>
+
+
+</html>

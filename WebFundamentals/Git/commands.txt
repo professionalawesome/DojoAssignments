@@ -1,0 +1,374 @@
+Last login: Tue Feb 21 15:31:54 on ttys000
+Dannys-MacBook-Pro:~ Danny$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+Dannys-MacBook-Pro:~ Danny$ ls-l
+-bash: ls-l: command not found
+Dannys-MacBook-Pro:~ Danny$ ls -1
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+Dannys-MacBook-Pro:~ Danny$ ls -l
+total 0
+drwx------   6 Danny  staff   204 Oct 23  2015 Applications
+drwx------+ 21 Danny  staff   714 Feb 21 13:08 Desktop
+drwx------+ 39 Danny  staff  1326 Dec 30 00:18 Documents
+drwx------+  4 Danny  staff   136 Feb 21 11:43 Downloads
+drwx------@ 67 Danny  staff  2278 Jan 30 23:30 Library
+drwx------+  6 Danny  staff   204 Jan 30 23:17 Movies
+drwx------+ 28 Danny  staff   952 Dec 20  2015 Music
+drwx------+  8 Danny  staff   272 Nov 18  2015 Pictures
+drwxr-xr-x+  5 Danny  staff   170 Mar 22  2014 Public
+Dannys-MacBook-Pro:~ Danny$
+Dannys-MacBook-Pro:~ Danny$ ls -a
+.			.bash_sessions		Downloads
+..			.bluray			Library
+.CFUserTextEncoding	.cups			Movies
+.DS_Store		.vscode			Music
+.Trash			Applications		Pictures
+.atom			Desktop			Public
+.bash_history		Documents
+Dannys-MacBook-Pro:~ Danny$ clear
+
+Dannys-MacBook-Pro:~ Danny$ pwd
+/Users/Danny
+Dannys-MacBook-Pro:~ Danny$ cd..
+-bash: cd..: command not found
+Dannys-MacBook-Pro:~ Danny$ cd ..
+Dannys-MacBook-Pro:Users Danny$ ls
+Danny	Guest	Shared
+Dannys-MacBook-Pro:Users Danny$ documents
+-bash: documents: command not found
+Dannys-MacBook-Pro:Users Danny$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dannys-MacBook-Pro:Users Danny$ desktop
+-bash: desktop: command not found
+Dannys-MacBook-Pro:Users Danny$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dannys-MacBook-Pro:Users Danny$ Desktop
+-bash: Desktop: command not found
+Dannys-MacBook-Pro:Users Danny$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dannys-MacBook-Pro:Users Danny$ cd
+Dannys-MacBook-Pro:~ Danny$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dannys-MacBook-Pro:~ Danny$ list
+-bash: list: command not found
+Dannys-MacBook-Pro:~ Danny$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+Dannys-MacBook-Pro:~ Danny$ cd/
+-bash: cd/: No such file or directory
+Dannys-MacBook-Pro:~ Danny$ /cd
+-bash: /cd: No such file or directory
+Dannys-MacBook-Pro:~ Danny$ cd /
+Dannys-MacBook-Pro:/ Danny$ cd
+Dannys-MacBook-Pro:~ Danny$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dannys-MacBook-Pro:~ Danny$ cd desktop
+Dannys-MacBook-Pro:desktop Danny$ cd baker
+Dannys-MacBook-Pro:baker Danny$ ls
+nonviolent-communication-a-language-of-life-marshall-b-rosenberg-130223113005-phpapp01.pdf
+Dannys-MacBook-Pro:baker Danny$ cd desktop
+-bash: cd: desktop: No such file or directory
+Dannys-MacBook-Pro:baker Danny$ cd
+Dannys-MacBook-Pro:~ Danny$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dannys-MacBook-Pro:~ Danny$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+Dannys-MacBook-Pro:~ Danny$ pwd
+/Users/Danny
+Dannys-MacBook-Pro:~ Danny$ cd desktop
+Dannys-MacBook-Pro:desktop Danny$ cd
+Dannys-MacBook-Pro:~ Danny$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dannys-MacBook-Pro:~ Danny$ cd desktop
+Dannys-MacBook-Pro:desktop Danny$ mkdir filetofish
+Dannys-MacBook-Pro:desktop Danny$ ls
+250 2.docx				fakeblog.html				titleist
+Emgt 322 349 357.docx			filetofish				自傳.docx
+Untitled.html				github.docx				替代役.docx
+baker					hello_world.html			家裡地址.docx
+classes					quality					國家中山科學研究院.docx
+entrepreneur				registrationform.html
+fake blog				resume new
+Dannys-MacBook-Pro:desktop Danny$ pwd
+/Users/Danny/desktop
+Dannys-MacBook-Pro:desktop Danny$ cd filetofish
+Dannys-MacBook-Pro:filetofish Danny$ touch index.html
+Dannys-MacBook-Pro:filetofish Danny$ ls
+index.html
+Dannys-MacBook-Pro:filetofish Danny$ touch styles.css
+Dannys-MacBook-Pro:filetofish Danny$ ls
+index.html	styles.css
+Dannys-MacBook-Pro:filetofish Danny$ touch commands.txt
+Dannys-MacBook-Pro:filetofish Danny$ ls
+commands.txt	index.html	styles.css
+Dannys-MacBook-Pro:filetofish Danny$ cp index.html index_2.html
+Dannys-MacBook-Pro:filetofish Danny$ ls
+commands.txt	index.html	index_2.html	styles.css
+Dannys-MacBook-Pro:filetofish Danny$ rm style.css
+rm: style.css: No such file or directory
+Dannys-MacBook-Pro:filetofish Danny$ rm styles.css
+Dannys-MacBook-Pro:filetofish Danny$ ls
+commands.txt	index.html	index_2.html
+Dannys-MacBook-Pro:filetofish Danny$ cd desktop
+-bash: cd: desktop: No such file or directory
+Dannys-MacBook-Pro:filetofish Danny$ pwd
+/Users/Danny/desktop/filetofish
+Dannys-MacBook-Pro:filetofish Danny$ cd..
+-bash: cd..: command not found
+Dannys-MacBook-Pro:filetofish Danny$ cd ..
+Dannys-MacBook-Pro:desktop Danny$ pwd
+/Users/Danny/desktop
+Dannys-MacBook-Pro:desktop Danny$ mkdir destination
+Dannys-MacBook-Pro:desktop Danny$ ls
+250 2.docx				fake blog				resume new
+Emgt 322 349 357.docx			fakeblog.html				titleist
+Untitled.html				filetofish				自傳.docx
+baker					github.docx				替代役.docx
+classes					hello_world.html			家裡地址.docx
+destination				quality					國家中山科學研究院.docx
+entrepreneur				registrationform.html
+Dannys-MacBook-Pro:desktop Danny$ mv index_2.html destination
+mv: rename index_2.html to destination/index_2.html: No such file or directory
+Dannys-MacBook-Pro:desktop Danny$ pwd
+/Users/Danny/desktop
+Dannys-MacBook-Pro:desktop Danny$ mv index_2.html Desktop/destination
+mv: rename index_2.html to Desktop/destination: No such file or directory
+Dannys-MacBook-Pro:desktop Danny$ mv index_2.html destination/index_2.html
+mv: rename index_2.html to destination/index_2.html: No such file or directory
+Dannys-MacBook-Pro:desktop Danny$ ls
+250 2.docx				fake blog				resume new
+Emgt 322 349 357.docx			fakeblog.html				titleist
+Untitled.html				filetofish				自傳.docx
+baker					github.docx				替代役.docx
+classes					hello_world.html			家裡地址.docx
+destination				quality					國家中山科學研究院.docx
+entrepreneur				registrationform.html
+Dannys-MacBook-Pro:desktop Danny$ cd filetofish
+Dannys-MacBook-Pro:filetofish Danny$ index_2.html destination/index_2.html
+-bash: index_2.html: command not found
+Dannys-MacBook-Pro:filetofish Danny$ mv index_2.html destination/index_2.html
+mv: rename index_2.html to destination/index_2.html: No such file or directory
+Dannys-MacBook-Pro:filetofish Danny$ ls
+commands.txt	index.html	index_2.html
+Dannys-MacBook-Pro:filetofish Danny$ mv ~/Desktop/filetofish/index_2.html ~/Desktop/destination
+Dannys-MacBook-Pro:filetofish Danny$ ls
+commands.txt	index.html
+Dannys-MacBook-Pro:filetofish Danny$ cd destop
+-bash: cd: destop: No such file or directory
+Dannys-MacBook-Pro:filetofish Danny$ cd desktop
+-bash: cd: desktop: No such file or directory
+Dannys-MacBook-Pro:filetofish Danny$ cd ..
+Dannys-MacBook-Pro:desktop Danny$ cd destination
+Dannys-MacBook-Pro:destination Danny$ ls
+index_2.html
+Dannys-MacBook-Pro:destination Danny$ rm -rf destination
+Dannys-MacBook-Pro:destination Danny$ cd ..
+Dannys-MacBook-Pro:desktop Danny$ ls
+250 2.docx				fake blog				resume new
+Emgt 322 349 357.docx			fakeblog.html				titleist
+Untitled.html				filetofish				自傳.docx
+baker					github.docx				替代役.docx
+classes					hello_world.html			家裡地址.docx
+destination				quality					國家中山科學研究院.docx
+entrepreneur				registrationform.html
+Dannys-MacBook-Pro:desktop Danny$ rm _rf destination
+rm: _rf: No such file or directory
+rm: destination: is a directory
+Dannys-MacBook-Pro:desktop Danny$ rm -rf destination
+Dannys-MacBook-Pro:desktop Danny$ ls
+250 2.docx				fakeblog.html				titleist
+Emgt 322 349 357.docx			filetofish				自傳.docx
+Untitled.html				github.docx				替代役.docx
+baker					hello_world.html			家裡地址.docx
+classes					quality					國家中山科學研究院.docx
+entrepreneur				registrationform.html
+fake blog				resume new
+Dannys-MacBook-Pro:desktop Danny$
