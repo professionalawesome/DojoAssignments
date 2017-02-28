@@ -1,0 +1,125 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.wrapper{
+  background-color: black;
+  width: 950px;
+  padding: 10px;
+}
+.banner{
+  background-color: #1a1a1a;
+  width: 950px;
+}
+
+.modernize{
+  display: inline-block;
+}
+
+.callus{
+  color: white;
+  float: right;
+  display: inline-block;
+  padding: 20px 20px 0px 0px;
+}
+
+.menu{
+  background-color: silver;
+  padding: 10px;
+  width: 930px;
+
+}
+
+.menu ul li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+
+}
+
+.icons{
+  background-color: #1a1a1a;
+  padding: 10px 0px 10px 10px;
+  width: 950px;
+
+}
+
+
+
+.iconwords{
+  display: inline-block;
+  width: 200px;
+
+
+}
+
+.iconcontent{
+  display: inline-block;
+  width: 140px;
+  color: white;
+}
+
+.text h2{
+  margin-bottom: 5px;
+
+}
+
+.text{
+  color: white;
+  width: 600px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.bibendum{
+
+  display: inline-block;
+}
+
+
+.buynow{
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.portfoliologo{
+  color: white;
+  padding: 10px;
+
+
+
+}
+
+.portfolio{
+  background-color: #1a1a1a;
+  display: inline-block;
+  height: 400px;
+
+
+}
+
+.orangetitle{
+  color: orange;
+
+}
+
+.portfoliotext{
+  color: white;
+  width:200px;
+
+}
+
+.abc{
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+
+}
+
+button{
+  background-color: orange;
+  padding: 5px;
+}
+
+p{
+  display: inline-block;
+}

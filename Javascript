@@ -1,0 +1,7 @@
+
+    var amount = 0.01;
+    var days = 1;
+    for(days = 2 ; days < 31; days++){
+      amount *= 2;
+      console.log("Day " + days + " " + amount);
+    }

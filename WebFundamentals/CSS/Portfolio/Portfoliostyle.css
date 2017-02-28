@@ -1,0 +1,118 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+.banner{
+  background-color: silver;
+  width: 970px;
+  padding: 10px;
+
+
+}
+
+.master{
+  float: right;
+  display: inline-block;
+
+}
+
+.title{
+  display: inline-block;
+}
+
+.body{
+  background-color: #57434c;
+  width: 970px;
+  padding: 10px;
+}
+
+.girl{
+  width: 420px;
+  display: inline-block;
+}
+
+.topabout{
+  background-color: #878593;
+
+
+}
+
+.about{
+  background-color: #ede6ed;
+  display: block;
+
+
+}
+
+.allabout{
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+.topla{
+  background-color: #878593;
+}
+
+.la{
+  background-color: #ede6ed;
+  width: 303px;
+  display: inline-block;
+}
+
+.latext{
+  height: 127px;
+  display: block;
+}
+
+.latechnologies{
+  background-color: #878593;
+}
+
+.bottomlapic{
+  padding: 5px;
+  height: 120px;
+}
+
+.littlelogos{
+  padding: 5px;
+}
+
+button{
+  padding: 5px;
+  background-color: green;
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.lamodebutton{
+  padding: 5px;
+}
+
+.topfamily{
+  background-color: #878593;
+}
+
+.family{
+  background-color: #ede6ed;
+  width: 303px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.familytechnologies{
+  background-color: #878593;
+}
+
+.bottomfamilypic{
+  padding: 5px;
+}
+
+.familybutton{
+  padding: 5px;
+}
