@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jquerypractice</title>
+    <style>
+      .whatever{
+        color: yellow;
+      }
+    </style>
+    <script type="text/javascript" src= 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".first").click(function(){
+          alert("longest name in africa");
+        });
+        $("#hider").click(function(){
+          $(".second").hide("fast", function(){
+          })
+        })
+        $("#shower").click(function(){
+          $(".second").show("slow", function(){
+
+          })
+        })
+        $("#toggle").click(function(){
+          $(".third").toggle("slow");
+        })
+        $("#hider2").click(function(){
+          $(".fourth").hide("fast", function(){
+          })
+        })
+        $("#slidedown").click(function(){
+          $(".fourth").slideDown("slow", function(){
+
+          });
+        })
+        $("#slideup").click(function(){
+          $(".fifth").slideUp("slow", function(){
+
+          });
+        })
+        $("#shower2").click(function(){
+          $(".fifth").show("slow", function(){
+
+          })
+        })
+        $("#toggle2").click(function(){
+          $(".sixth").slideToggle("slow");
+        })
+        $("#fadein").click(function(){
+          $(".seventh").fadeIn( 2000 )
+        })
+        $("#hider3").click(function(){
+          $(".seventh").hide("fast", function(){
+          })
+        })
+        $("#fadeout").click(function(){
+          $(".eighth").fadeOut( 2000 )
+        })
+        $(".ninth").addClass("whatever");
+        $(".tenth").before("the hoes are laughing");
+        $(".eleventh").after("yep");
+        $(".twelve").append(" are the audiences bunch of hoes?")
+        $(".thirteenth").html(".html: very nice")
+        var title = $("em").attr("title");
+        $("h2").text(title);
+        $("button").click(function(){
+          var text = $( this ).text();
+          $( "input" ).val( text );
+        })
+        $("h3").text( ".text: this is very nice" );
+        $(".ook").data("good", { first: "this", last: "that"});
+        $( "span:first" ).text($(".ook").data("good").first );
+        $( "span:last" ).text($(".ook").data("good").last );
+      });
+
+
+    </script>
+  </head>
+  <body>
+    <div>
+      <h1 class="first">.click: UVUVWEVWEVWE</h1>
+    </div>
+    <div>
+      <h1 class="second">.hide and .show: ONYETENYEVWE</h1>
+      <button id="hider">Hide</button>
+      <button id="shower">Show</button>
+    </div>
+    <div>
+      <h1 class="third">.toggle:UGWEMUBWEM</h1>
+      <button id="toggle">toggle</button>
+    </div>
+    <div>
+      <h1 class="fourth">.slideDown: OSASS</h1>
+      <button id="hider2">Hide</button>
+      <button id="slidedown">slidedown</button>
+    </div>
+    <div>
+      <h1 class="fifth">.slideUp: cash me ousside</h1>
+      <button id="shower2">Show</button>
+      <button id="slideup">slideup</button>
+
+    </div>
+    <div>
+      <h1 class="sixth">.slideToggle: howboudah</h1>
+      <button id="toggle2">toggle</button>
+
+    </div>
+    <div>
+      <h1 class="seventh">.fadeIn: what does that mean</h1>
+      <button id="fadein">fadein</button>
+      <button id="hider3">Hide</button>
+    </div>
+    <div>
+      <h1 class="eighth">.fadeOut: what I just said</h1>
+      <button id="fadeout">fadeout</button>
+
+    </div>
+    <div>
+      <h1 class="ninth">.addClass: the hoes are laughing</h1>
+
+    </div>
+    <div>
+      <h1 class="tenth">.before: yep</h1>
+
+    </div>
+    <div>
+      <h1 class="eleventh">.after: so the audiences are bunch of hoes</h1>
+
+    </div>
+    <div>
+      <h1 class="twelve">.append: the audiences are bunch of hoes</h1>
+
+    </div>
+    <div>
+      <h1 class="thirteenth"></h1>
+
+
+    </div>
+    <div class="fourteenth">
+      <p>.attr: this is very <em title="very good">nice</em>, thus it is <h2></h2></p>
+
+    </div>
+    <div class="fifteenth">
+      <div class="1">
+        <button>.val: cash</button>
+        <button>me</button>
+        <button>ousside</button>
+        <input type="text" name="cashmeousside" value="click a button">
+
+      </div>
+    </div>
+    <div class="seventeenth">
+      <h3></h3>
+    </div>
+    <div class="eighteenth">
+      <h1 class="ook">.data: the values stored were <span></span> and <span></span></h1>
+    </div>
+
+  </body>
+</html>
