@@ -1,0 +1,21 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ vertical-align: top;
+}
+
+.info{
+  display: inline-block;
+  position: fixed;
+}
+
+.index{
+  display: inline-block;
+  width: 80%;
+
+
+}
+
+.whole {
+
+}

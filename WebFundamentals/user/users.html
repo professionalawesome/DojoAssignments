@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>users</title>
+    <link rel="stylesheet" type="text/css" href="userstyle.css">
+    <script type="text/javascript" src= 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("button").click(function(){
+          $(".new1").append("<p>" + $(".firstname").val() + "</p>");
+        })
+        $("button").click(function(){
+          $(".new2").append("<p>" + $(".lastname").val() + "</p>");
+        })
+        $("button").click(function(){
+          $(".new3").append("<p>" + $(".email").val()+ "</p>");
+        })
+        $("button").click(function(){
+          $(".new4").append("<p>" + $(".contact").val()+ "</p>");
+        })
+
+      })
+
+    </script>
+  </head>
+  <body>
+<div class="">
+  <table>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email Address</th>
+      <th>Contact #</th>
+    </tr>
+    <tr>
+      <th class="new1"></th>
+      <th class="new2"></th>
+      <th class="new3"></th>
+      <th class="new4"></th>
+    </tr>
+  </table>
+
+</div>
+<div class="">
+  <form class="">
+    Firs Name:
+    <input class="firstname" type="text" name=""> <br>
+    Last Name:
+    <input class="lastname" type="text" name=""> <br>
+    Email Address:
+    <input class="email" type="text" name=""> <br>
+    Contact No.:
+    <input class="contact" type="text" name=""> <br>
+
+
+  </form>
+</div>
+<div class="">
+  <button type="button" name="button">Add User</button>
+
+</div>
+  </body>
+</html>
