@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>weatherforecast</title>
+    <script type="text/javascript" src= 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("button").click(function(){
+          var url = 'http://api.openweathermap.org/data/2.5/weather?q=' + $("input").val() + '&appid=47a16c721ab5e918e7fec3629f66de02';
+          $.get( url , function(res){
+            console.log(res);
+            $(".city").html(res.name);
+
+            $(".temp").html(res.main.temp + "K");
+
+          }, 'json');
+
+          return false;
+
+        })
+
+      })
+
+    </script>
+  </head>
+  <body>
+    <div class="">
+
+
+      <div class="">
+        <form class="">
+          <input type="text" value="">
+
+
+
+        </form>
+      </div>
+      <div class="">
+        <button type="button" name="button">Search Weather</button>
+
+      </div>
+      <div class="">
+        <h1 class="city"></h1>
+
+      </div>
+      <div class="">
+        <h1 class="temp"></h1>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
